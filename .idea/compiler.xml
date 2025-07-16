@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-ariston.ui.apps" />
+        <module name="demo-ariston.ui.content" />
+        <module name="demo-ariston.ui.apps.structure" />
+        <module name="demo-ariston.all" />
+        <module name="demo-ariston.it.tests" />
+        <module name="demo-ariston.core" />
+        <module name="demo-ariston.ui.config" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

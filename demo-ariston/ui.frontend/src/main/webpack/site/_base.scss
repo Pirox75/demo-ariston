@@ -8,6 +8,7 @@ body {
     line-height: $font-height;
     color:       $color-foreground;
     background:  $color-background;
+    font-weight: 400;
 
     @media (prefers-color-scheme: dark) {
         color:       $color-foreground-dark;
@@ -15,19 +16,21 @@ body {
     }
 }
 
+.root{
 
-a {
-    color: $color-link;
+    a {
+        color: $color-link;
 
-    @media (prefers-color-scheme: dark) {
-        color: $color-link-dark;
+        @media (prefers-color-scheme: dark) {
+            color: $color-link-dark;
+        }
     }
-}
 
-button,
-input,
-optgroup,
-select,
-textarea {
-    font: inherit;
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        font: inherit;
+    }
 }
