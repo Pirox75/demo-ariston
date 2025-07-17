@@ -1,15 +1,50 @@
 
 //== Container main content style, used on page template
 
-main.container {
+// Caso 1: header inside main.container
+main.container:has(header.experiencefragment) {
+    overflow: hidden;
+    header.experiencefragment + .container, header.experiencefragment + .breadcrumb +.container {
+        padding: 0 50px;
+        > .cmp-container {
+            position: relative;
+            margin: 0 auto;
+            max-width: 1140px;
+            padding-top: 60px;
+            padding-bottom: 100px;
+        }
+        .breadcrumb{
+            padding: 0 50px;
+        }
+    }
+}
+
+// Case 2: header  NEXT TO main.container
+main.container:not(:has(header.experiencefragment)) {
     overflow: hidden;
     padding: 0 50px;
-    >.cmp-container{
+    > .cmp-container {
         position: relative;
         margin: 0 auto;
         max-width: 1140px;
-        padding-top: 120px;
+        padding-top:0;
         padding-bottom: 100px;
     }
+    .breadcrumb {
+        padding: 0 50px;
+        margin-bottom: 60px;
+    }
+}
 
+main.container:not(:has(header.experiencefragment)):not(:has(.breadcrumb)) {
+    overflow: hidden;
+    padding: 0 50px;
+
+    > .cmp-container {
+        position: relative;
+        margin: 0 auto;
+        max-width: 1140px;
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
 }
