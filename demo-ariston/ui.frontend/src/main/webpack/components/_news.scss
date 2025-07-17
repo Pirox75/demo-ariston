@@ -10,3 +10,23 @@
     font-size: 1rem;
     text-align: right;
 }
+
+.button__article-tag{
+    color: rgb(220, 56, 57);
+    text-transform: uppercase;
+    border: 0;
+    text-decoration: none;
+    background-color: transparent;
+    display: contents;
+    a{
+        color: rgb(220, 56, 57);
+    }
+    .cmp-button__text{
+        padding-right: .8rem;
+    }
+}
+
+.container__article-details > .cmp-container > .aem-Grid{
+    display: flex;
+    align-items: baseline;
+}
