@@ -3,16 +3,25 @@
 
 main.container {
     padding: 0;
-    .cmp-container{
-        .container{
-            .cmp-container{
-                position: relative;
-                margin: 0 auto;
-                max-width: 1140px;
-                padding-top: 60px;
-                padding-bottom: 100px;
-
-            }
+    > .cmp-container{
+        position: relative;
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    @media (min-width: 576px) {
+        > .cmp-container{
+            max-width: 540px;
         }
+    }
+    @media (min-width: 767px) {
+        > .cmp-container{
+            max-width: 960px;
+        }
+    }
+    @media (min-width: 1200px) {
+        > .cmp-container{
+            max-width: 1140px;
+        }   
     }
 }

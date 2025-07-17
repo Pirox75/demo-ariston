@@ -73,19 +73,12 @@
                     
     
     
-    <module>ui.content</module>
-                    
-    
-    
-    <module>it.tests</module>
-                    
+    <module>ui.content</module>                    
     
     
     <module>dispatcher</module>
-                    
     
     
-    <module>ui.tests</module>
       
   </modules>
           
