@@ -1,1 +1,27 @@
 .cmp-container {}
+
+
+.news-meta{
+  .cmp-container{
+    display: flex;
+    justify-content: space-between;
+    .category-meta, .date-meta{
+      p{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        color:$color-primary
+
+      }
+    }
+    .category-meta{
+      p{
+        color:$red
+      }
+    }
+    .date-meta{
+      margin-left: auto;
+    }
+
+  }
+}

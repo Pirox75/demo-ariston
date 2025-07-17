@@ -6,5 +6,12 @@ h1{
 }
 
 p{
-  color:lighten($black,45%)
+  color:lighten($black,45%);
+  font-weight: 300;
+  line-height: 2;
+
+}
+
+b{
+  font-weight: 600;
 }

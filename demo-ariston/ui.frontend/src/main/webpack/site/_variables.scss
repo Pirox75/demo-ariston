@@ -5,7 +5,7 @@
 
 $font-family:           "Figtree", Helvetica, Arial, sans-serif;
 $font-size:             16px;
-$font-height:           1.5;
+$font-height:           1.3;
 
 //== Color
 $black: #000;
@@ -18,7 +18,7 @@ $red: #DC3839;
 $color-primary:       lighten($black,15%);
 $color-primary-hover: lighten($black,50%);
 
-$color-secondary:       $red;
+$color-secondary:       $blue;
 $color-secondary-hover: darken($color-secondary, 80%);
 
 $color-foreground:      $color-primary;

@@ -2,17 +2,14 @@
 //== Container main content style, used on page template
 
 main.container {
-    padding: 0;
-    .cmp-container{
-        .container{
-            .cmp-container{
-                position: relative;
-                margin: 0 auto;
-                max-width: 1140px;
-                padding-top: 60px;
-                padding-bottom: 100px;
-
-            }
-        }
+    overflow: hidden;
+    padding: 0 50px;
+    >.cmp-container{
+        position: relative;
+        margin: 0 auto;
+        max-width: 1140px;
+        padding-top: 120px;
+        padding-bottom: 100px;
     }
+
 }
