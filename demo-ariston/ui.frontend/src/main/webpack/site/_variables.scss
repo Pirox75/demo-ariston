@@ -12,6 +12,7 @@ $black: #000;
 $white:    #ffffff;
 $blue: #004990;
 $red: #DC3839;
+
 // Normal mode
 
 $color-primary:       lighten($black,15%);
@@ -23,9 +24,3 @@ $color-secondary-hover: darken($color-secondary, 80%);
 $color-foreground:      $color-primary;
 $color-background:      $white;
 $color-link:            $color-secondary;
-
-
-// Dark mode
-$color-foreground-dark: invert($color-foreground);
-$color-background-dark: invert($color-background);
-$color-link-dark:       invert($color-link);

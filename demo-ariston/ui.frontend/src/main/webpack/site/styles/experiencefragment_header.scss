@@ -5,26 +5,14 @@ header.experiencefragment {
     height: 154px;
     background: $white;
 
-    @media (prefers-color-scheme: dark) {
-        border-bottom-color: $color-foreground-dark;
-    }
-
     a {
         color: $color-foreground;
         text-decoration: none;
-
-        @media (prefers-color-scheme: dark) {
-            color: $color-foreground-dark;
-        }
 
         &:hover,
         &:focus {
             color: $color-link;
             text-decoration: underline;
-
-            @media (prefers-color-scheme: dark) {
-                color: $color-link-dark;
-            }
         }
     }
     // container

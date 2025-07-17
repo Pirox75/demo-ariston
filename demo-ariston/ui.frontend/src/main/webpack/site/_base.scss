@@ -9,21 +9,12 @@ body {
     color:       $color-foreground;
     background:  $color-background;
     font-weight: 400;
-
-    @media (prefers-color-scheme: dark) {
-        color:       $color-foreground-dark;
-        background:  $color-background-dark;
-    }
 }
 
 .root{
 
     a {
         color: $color-link;
-
-        @media (prefers-color-scheme: dark) {
-            color: $color-link-dark;
-        }
     }
 
     button,
